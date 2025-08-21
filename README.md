@@ -22,4 +22,4 @@ FizzBuzz
 Fizz
 19
 Buzz
-... etc up to 100
+... etc up to 100.
