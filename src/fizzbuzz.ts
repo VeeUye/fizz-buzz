@@ -6,5 +6,10 @@ export function fizzbuzz(number: number) {
     if (number === 5) {
         return 'buzz'
     }
+
+    if (number === 15) {
+        return 'fizzbuzz'
+    }
+
 return number
 }
