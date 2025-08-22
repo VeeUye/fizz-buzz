@@ -11,6 +11,9 @@ describe("kata", () => {
         expect(fizzbuzz(10)).toEqual('buzz')
         expect(fizzbuzz(15)).toEqual('fizzbuzz')
         expect(fizzbuzz(30)).toEqual('fizzbuzz')
+        expect(fizzbuzz(60)).toEqual('fizzbuzz')
+        expect(fizzbuzz(61)).toEqual(61)
+        expect(fizzbuzz(100)).toEqual('buzz')
 
     });
 
