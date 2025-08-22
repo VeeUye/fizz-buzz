@@ -7,7 +7,9 @@ describe("kata", () => {
         expect(fizzbuzz(2)).toEqual(2)
         expect(fizzbuzz(3)).toEqual('fizz')
         expect(fizzbuzz(5)).toEqual('buzz')
+        expect(fizzbuzz(6)).toEqual('fizz')
         expect(fizzbuzz(15)).toEqual('fizzbuzz')
+
     });
 
 })
